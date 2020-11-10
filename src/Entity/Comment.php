@@ -20,6 +20,7 @@ class Comment
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups({"xyz"})
      */
     private $username;
 
